@@ -25,7 +25,7 @@ namespace Hotel_El_Descanso.Windows
             InitializeComponent();
             ActivarControlDatos(gbDatos, false);
             CargarDatos();
-            textBox1.Text= Program.variable1.ToString() ;
+           // textBox1.Text= Program.variable1.ToString() ;
 
         }
 
@@ -109,6 +109,7 @@ namespace Hotel_El_Descanso.Windows
             ActivarButton(false);
             LimpiarControl(gbDatos);
             txtNombre.Focus();
+          
         }
 
         private void BtnGrabar_Click(object sender, EventArgs e)

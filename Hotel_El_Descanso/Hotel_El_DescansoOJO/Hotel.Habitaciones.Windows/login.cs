@@ -19,6 +19,9 @@ namespace Hotel_El_Descanso.Windows
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            Program.vIdUsuario = 1;
+            Program.vNomUsuario  = "Jhon";
+
             Form pasar = new Home();
             pasar.Show();
 

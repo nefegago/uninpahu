@@ -230,5 +230,10 @@ namespace Hotel_El_Descanso.Windows
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
+
+        private void GbDatos_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

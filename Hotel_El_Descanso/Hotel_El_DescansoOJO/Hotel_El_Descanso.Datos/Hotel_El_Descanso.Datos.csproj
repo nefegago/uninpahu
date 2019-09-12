@@ -46,7 +46,9 @@
     <Compile Include="DAOClientes.cs" />
     <Compile Include="DAOHabitaciones.cs" />
     <Compile Include="DaoMiniBar.cs" />
+    <Compile Include="DAOReserva.cs" />
     <Compile Include="DAOUsuario.cs" />
+    <Compile Include="DAOHuespedes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

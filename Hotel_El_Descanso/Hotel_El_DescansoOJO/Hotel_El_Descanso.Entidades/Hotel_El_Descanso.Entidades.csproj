@@ -44,8 +44,10 @@
     <Compile Include="Categoria.cs" />
     <Compile Include="ClientesHotel.cs" />
     <Compile Include="Habitacion.cs" />
+    <Compile Include="Huespe.cs" />
     <Compile Include="MiniBar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reserva.cs" />
     <Compile Include="UsuariosHotel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

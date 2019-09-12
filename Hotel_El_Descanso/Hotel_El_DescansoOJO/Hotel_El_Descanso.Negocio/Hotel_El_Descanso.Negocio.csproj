@@ -44,7 +44,9 @@
     <Compile Include="BLCategoria.cs" />
     <Compile Include="BLCliente.cs" />
     <Compile Include="BlHabitacion.cs" />
+    <Compile Include="BLHuespe.cs" />
     <Compile Include="BLMiniBar.cs" />
+    <Compile Include="BLReserva.cs" />
     <Compile Include="BLUsuario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,17 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
+
+
+
+
+
+
 namespace Hotel_El_Descanso.Windows
 {
-    static class Program
+   public  static class Program
     {
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
-        public static int variable1 = 0;
+        public static string vNomUsuario = "";
+        public static int vIdUsuario = 0;
 
         [STAThread]
         

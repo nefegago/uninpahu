@@ -67,5 +67,24 @@ namespace Hotel_El_Descanso.Windows
             pasar.Show();
             this.Hide();
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            Form pasar = new Hotel.Habitaciones.Windows.HuespedForm();
+            pasar.Show(); 
+            this.Hide();
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            Form pasar = new Hotel.Habitaciones.Windows.ReservaForms();
+            pasar.Show(); 
+            this.Hide(); 
+        }
+
+        private void Panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

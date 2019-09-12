@@ -142,7 +142,7 @@ namespace Hotel_El_Descanso.Windows
                 {
                     c = blHabitaciones.TraerPorId((int)dgvDatos[0, dgvDatos.CurrentRow.Index].Value);
                     txtCodigo.Text = c.Codigo;
-                    
+                     
                     //   if ( c.Precio.ToString().Length > 0 )
                     // {
 

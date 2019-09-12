@@ -69,6 +69,7 @@
             this.gbDatos.Name = "gbDatos";
             this.gbDatos.Size = new System.Drawing.Size(521, 254);
             this.gbDatos.TabIndex = 3;
+            this.gbDatos.Paint += new System.Windows.Forms.PaintEventHandler(this.GbDatos_Paint);
             // 
             // label4
             // 
