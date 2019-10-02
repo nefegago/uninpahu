@@ -20,7 +20,7 @@ namespace Hotel.Habitaciones.Windows
         private void Button1_Click(object sender, EventArgs e)
         {
             //Form pasar = new Clientes();
-             Form pasar = new clienteForms();
+             Form pasar = new Home();
           //  Form pasar = new usuarioForms();
             pasar.Show();
 
@@ -28,6 +28,11 @@ namespace Hotel.Habitaciones.Windows
         }
 
         private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
         {
 
         }

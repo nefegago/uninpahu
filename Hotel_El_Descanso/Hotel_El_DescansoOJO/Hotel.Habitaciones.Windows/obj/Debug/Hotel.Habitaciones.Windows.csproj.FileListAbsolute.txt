@@ -62,3 +62,29 @@ C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel.H
 C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.habitacionesForm.resources
 C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.categoriaForm.resources
 C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.clienteForms.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel.Habitaciones.Windows.exe.config
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel.Habitaciones.Windows.exe
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel.Habitaciones.Windows.pdb
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel_El_Descanso.Entidades.dll
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel_El_Descanso.Datos.dll
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel_El_Descanso.Entidades.pdb
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\bin\Debug\Hotel_El_Descanso.Datos.pdb
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.csprojAssemblyReference.cache
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.categoriaForm.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.clienteForms.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.habitacionesForm.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.login.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.Properties.Resources.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.usuarioForms.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.csproj.GenerateResource.cache
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.csproj.CoreCompileInputs.cache
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.csproj.CopyComplete
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.exe
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.pdb
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.Home.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.Minibar.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Minibar.Windows.Minibar.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.MiniBarForms.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.MinibarFormsWindows.resources

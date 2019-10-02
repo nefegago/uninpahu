@@ -198,6 +198,18 @@ namespace Hotel.Habitaciones.Windows
             Close();
         }
 
+        private void BtnRegresar_Click(object sender, EventArgs e)
+        {
+            Form pasar = new Home();
+            pasar.Show();
+            this.Hide();
+        }
+
+        private void GbDatos_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
 
 
 

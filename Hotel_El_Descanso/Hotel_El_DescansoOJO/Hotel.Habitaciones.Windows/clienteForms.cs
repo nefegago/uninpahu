@@ -25,6 +25,8 @@ namespace Hotel.Habitaciones.Windows
             InitializeComponent();
             ActivarControlDatos(gbDatos, false);
             CargarDatos();
+            textBox1.Text= Program.variable1.ToString() ;
+
         }
 
         private void ActivarControlDatos(Control Contenedor, bool Estado)
@@ -170,7 +172,7 @@ namespace Hotel.Habitaciones.Windows
             {
                 if (dgvDatos.RowCount > 0)
                 {
-                    c = bLCliente.TraerPorId((int)dgvDatos[0, dgvDatos.CurrentRow.Index].Value);
+                    c = bLCliente.TraerPorId((string)dgvDatos[0, dgvDatos.CurrentRow.Index].Value);
                     txtNombre.Text = c.Nombre;
                     txtPrimerApellido.Text = c.PrimerApellido;
                     textSegundoApellido.Text = c.SegundoApellido;
@@ -193,12 +195,13 @@ namespace Hotel.Habitaciones.Windows
         {
             if (dgvDatos.RowCount > 0)
             {
-                c = bLCliente.TraerPorId((int)dgvDatos[0, dgvDatos.CurrentRow.Index].Value);
+                c = bLCliente.TraerPorId((string)dgvDatos[0, dgvDatos.CurrentRow.Index].Value);
                 DialogResult rpta = MessageBox.Show("Desea eliminar el registro", "Eliminar", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (rpta == System.Windows.Forms.DialogResult.Yes)
                 {
-                    /*
-                    string n = bLCliente.Eliminar(c.Id); if (n > 0)
+                    
+                    int n = bLCliente.Eliminar(c.Id);
+                    if (n > 0)
                     {
                         MessageBox.Show("Registro Cliente Eliminado", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         lista = bLCliente.Listar();
@@ -208,7 +211,7 @@ namespace Hotel.Habitaciones.Windows
                     {
                         MessageBox.Show("Error al eliminar Cliente", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-                    */
+                   
                 }
 
             }
@@ -220,6 +223,18 @@ namespace Hotel.Habitaciones.Windows
         }
 
         private void DgvDatos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void BtnRegresar_Click(object sender, EventArgs e)
+        {
+            Form pasar = new Home();
+            pasar.Show();
+            this.Hide();
+        }
+
+        private void TxtNombre_TextChanged(object sender, EventArgs e)
         {
 
         }

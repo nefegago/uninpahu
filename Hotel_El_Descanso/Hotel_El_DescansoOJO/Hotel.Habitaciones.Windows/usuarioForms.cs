@@ -88,28 +88,6 @@ namespace Hotel.Habitaciones.Windows
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         private void UsuarioForms_Load(object sender, EventArgs e)
         {
 
@@ -229,6 +207,23 @@ namespace Hotel.Habitaciones.Windows
             ActivarButton(false);
             LimpiarControl(gbDatos);
             txtIdentificacion.Focus();
+        }
+
+        private void BtnRegresar_Click(object sender, EventArgs e)
+        {
+            Form pasar = new Home();
+            pasar.Show();
+            this.Hide();
+        }
+
+        private void TextCorreo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextEstado_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

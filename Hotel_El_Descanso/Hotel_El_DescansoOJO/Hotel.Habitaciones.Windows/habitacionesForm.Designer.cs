@@ -49,6 +49,7 @@
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Clave = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Perfil = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.gbDatos.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
@@ -135,6 +136,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnRegresar);
             this.panel2.Controls.Add(this.btnSalir);
             this.panel2.Controls.Add(this.btnEliminar);
             this.panel2.Controls.Add(this.btnEditar);
@@ -142,7 +144,7 @@
             this.panel2.Controls.Add(this.btnNuevo);
             this.panel2.Location = new System.Drawing.Point(496, 19);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(248, 226);
+            this.panel2.Size = new System.Drawing.Size(248, 250);
             this.panel2.TabIndex = 3;
             // 
             // btnSalir
@@ -203,7 +205,7 @@
             this.Nombre,
             this.Clave,
             this.Perfil});
-            this.dgvDatos.Location = new System.Drawing.Point(140, 260);
+            this.dgvDatos.Location = new System.Drawing.Point(136, 301);
             this.dgvDatos.Name = "dgvDatos";
             this.dgvDatos.Size = new System.Drawing.Size(444, 97);
             this.dgvDatos.TabIndex = 4;
@@ -238,15 +240,25 @@
             this.Perfil.HeaderText = "Categoria";
             this.Perfil.Name = "Perfil";
             // 
-            // Form1
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(16, 207);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(216, 23);
+            this.btnRegresar.TabIndex = 9;
+            this.btnRegresar.Text = "<-- Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
+            // 
+            // habitacionesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(752, 369);
+            this.ClientSize = new System.Drawing.Size(767, 410);
             this.Controls.Add(this.dgvDatos);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.gbDatos);
-            this.Name = "Form1";
+            this.Name = "habitacionesForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gbDatos.ResumeLayout(false);
@@ -280,6 +292,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Clave;
         private System.Windows.Forms.DataGridViewTextBoxColumn Perfil;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }
 

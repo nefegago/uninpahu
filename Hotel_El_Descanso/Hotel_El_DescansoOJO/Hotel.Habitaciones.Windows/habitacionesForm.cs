@@ -142,6 +142,7 @@ namespace Hotel.Habitaciones.Windows
                 {
                     c = blHabitaciones.TraerPorId((int)dgvDatos[0, dgvDatos.CurrentRow.Index].Value);
                     txtCodigo.Text = c.Codigo;
+                    
                     //   if ( c.Precio.ToString().Length > 0 )
                     // {
 
@@ -210,5 +211,11 @@ namespace Hotel.Habitaciones.Windows
 
         }
 
+        private void BtnRegresar_Click(object sender, EventArgs e)
+        {
+            Form pasar = new Home();
+            pasar.Show();
+            this.Hide();
+        }
     }
 }

@@ -65,7 +65,7 @@ namespace Hotel_El_Descanso.Datos
             return lista;
         }
 
-        public ClientesHotel TraerPorId(int Id)
+        public ClientesHotel TraerPorId(string Id)
         {
             ClientesHotel Cliente = new ClientesHotel();
             using (SqlConnection con = new SqlConnection(CadenaConexion))
@@ -79,10 +79,16 @@ namespace Hotel_El_Descanso.Datos
                 {
                     dr.Read();
                     Cliente = new ClientesHotel((string)dr["Id"],
-                     (string)dr["Nombre"], (string)dr["PrimerApellido"],
-                     (string)dr["SegundoApellido"], (string)dr["TelefonoFijo"],
-                     (string)dr["Celular"], (string)dr["Correo"],
-                     (string)dr["FechaNacimiento"], (string)dr["NoTarjetaCredito"]
+                        (string)dr["Nombre"],
+                        (string)dr["PrimerApellido"],
+                        (string)dr["SegundoApellido"],
+                        (string)dr["TelefonoFijo"],
+                        (string)dr["Celular"],
+                        (string)dr["Correo"],
+                        (string)dr["FechaNacimiento"],// Convert.ToString()
+                        (string)dr["NoTarjetaCredito"]
+
+
                      );
                 }
             }
@@ -133,7 +139,7 @@ namespace Hotel_El_Descanso.Datos
             }
             return n;
         }
-        public int Eliminar(int Id)
+        public int Eliminar(string Id)
         {
             int n = -1;
             using (SqlConnection con = new SqlConnection(CadenaConexion))

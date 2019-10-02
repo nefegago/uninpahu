@@ -57,6 +57,7 @@
             this.Perfil = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Estado = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Correo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.gbDatos.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
@@ -96,6 +97,7 @@
             this.textCorreo.Name = "textCorreo";
             this.textCorreo.Size = new System.Drawing.Size(278, 20);
             this.textCorreo.TabIndex = 12;
+            this.textCorreo.TextChanged += new System.EventHandler(this.TextCorreo_TextChanged);
             // 
             // textPerfil
             // 
@@ -110,6 +112,7 @@
             this.textEstado.Name = "textEstado";
             this.textEstado.Size = new System.Drawing.Size(278, 20);
             this.textEstado.TabIndex = 10;
+            this.textEstado.TextChanged += new System.EventHandler(this.TextEstado_TextChanged);
             // 
             // label6
             // 
@@ -197,6 +200,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnRegresar);
             this.panel2.Controls.Add(this.btnSalir);
             this.panel2.Controls.Add(this.btnEliminar);
             this.panel2.Controls.Add(this.btnEditar);
@@ -204,7 +208,7 @@
             this.panel2.Controls.Add(this.btnNuevo);
             this.panel2.Location = new System.Drawing.Point(460, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(248, 226);
+            this.panel2.Size = new System.Drawing.Size(248, 255);
             this.panel2.TabIndex = 3;
             // 
             // btnSalir
@@ -268,7 +272,7 @@
             this.Perfil,
             this.Estado,
             this.Correo});
-            this.dgvDatos.Location = new System.Drawing.Point(40, 262);
+            this.dgvDatos.Location = new System.Drawing.Point(50, 292);
             this.dgvDatos.Name = "dgvDatos";
             this.dgvDatos.Size = new System.Drawing.Size(644, 186);
             this.dgvDatos.TabIndex = 4;
@@ -313,11 +317,21 @@
             this.Correo.HeaderText = "Correo";
             this.Correo.Name = "Correo";
             // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(16, 215);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(216, 23);
+            this.btnRegresar.TabIndex = 10;
+            this.btnRegresar.Text = "<-- Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
+            // 
             // usuarioForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(812, 490);
             this.Controls.Add(this.dgvDatos);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.gbDatos);
@@ -363,5 +377,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Perfil;
         private System.Windows.Forms.DataGridViewTextBoxColumn Estado;
         private System.Windows.Forms.DataGridViewTextBoxColumn Correo;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }

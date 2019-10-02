@@ -61,6 +61,8 @@
             this.FechaNacimiento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NoTarjetaCredito = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnRegresar = new System.Windows.Forms.Button();
             this.gbDatos.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).BeginInit();
@@ -182,6 +184,7 @@
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(278, 20);
             this.txtNombre.TabIndex = 4;
+            this.txtNombre.TextChanged += new System.EventHandler(this.TxtNombre_TextChanged);
             // 
             // txtPrimerApellido
             // 
@@ -219,6 +222,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnRegresar);
             this.panel2.Controls.Add(this.btnSalir);
             this.panel2.Controls.Add(this.btnEliminar);
             this.panel2.Controls.Add(this.btnEditar);
@@ -226,7 +230,7 @@
             this.panel2.Controls.Add(this.btnNuevo);
             this.panel2.Location = new System.Drawing.Point(489, 15);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(248, 226);
+            this.panel2.Size = new System.Drawing.Size(251, 242);
             this.panel2.TabIndex = 5;
             // 
             // btnSalir
@@ -347,11 +351,29 @@
             this.Id.ReadOnly = true;
             this.Id.Visible = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(505, 270);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 7;
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.Location = new System.Drawing.Point(16, 216);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(216, 23);
+            this.btnRegresar.TabIndex = 8;
+            this.btnRegresar.Text = "<-- Regresar";
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.BtnRegresar_Click);
+            // 
             // clienteForms
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(871, 491);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.dgvDatos);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.gbDatos);
@@ -363,6 +385,7 @@
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -401,5 +424,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn FechaNacimiento;
         private System.Windows.Forms.DataGridViewTextBoxColumn NoTarjetaCredito;
         private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnRegresar;
     }
 }

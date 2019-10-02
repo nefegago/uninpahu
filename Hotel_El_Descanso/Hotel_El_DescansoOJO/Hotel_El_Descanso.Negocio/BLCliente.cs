@@ -17,7 +17,7 @@ namespace Hotel_El_Descanso.Negocio
             return daUsuario.Listar();
         }
 
-        public ClientesHotel TraerPorId(int Id)
+        public ClientesHotel TraerPorId(string Id)
         {
             DAOClientes daUsuario = new DAOClientes();
             return daUsuario.TraerPorId(Id);
@@ -31,8 +31,8 @@ namespace Hotel_El_Descanso.Negocio
         {
             DAOClientes daUsuario = new DAOClientes();
             return daUsuario.Actualizar(ClientesHotel);
-        }
-        public int Eliminar(int Id)
+        }  
+        public int Eliminar(string Id)
         {
             DAOClientes daUsuario = new DAOClientes();
             return daUsuario.Eliminar(Id);
