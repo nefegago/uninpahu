@@ -1,0 +1,44 @@
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.dll
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.dll
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.pdb
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.pdb
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csprojAssemblyReference.cache
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CopyComplete
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\nefegago\source\repos\Hotel_El_Descanso\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.dll
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.dll
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.pdb
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.pdb
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csprojAssemblyReference.cache
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CopyComplete
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\nefegago\Desktop\Hotel_El_Descanso - copia\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.dll
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.dll
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.pdb
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.pdb
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csprojAssemblyReference.cache
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CopyComplete
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\Datolo\source\C#_Web\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.dll
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.dll
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.pdb
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.pdb
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csprojAssemblyReference.cache
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CopyComplete
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.dll
+C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.pdb
