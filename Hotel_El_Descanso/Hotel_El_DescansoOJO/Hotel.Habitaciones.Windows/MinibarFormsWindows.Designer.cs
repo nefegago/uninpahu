@@ -1,4 +1,4 @@
-﻿namespace Hotel.Habitaciones.Windows
+﻿namespace Hotel_El_Descanso.Windows
 {
     partial class MinibarFormsWindows
     {
@@ -85,6 +85,8 @@
             this.textCantidad.Name = "textCantidad";
             this.textCantidad.Size = new System.Drawing.Size(278, 20);
             this.textCantidad.TabIndex = 6;
+            this.textCantidad.TextChanged += new System.EventHandler(this.TextCantidad_TextChanged);
+            this.textCantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextCantidad_KeyPress);
             // 
             // textPrecio
             // 

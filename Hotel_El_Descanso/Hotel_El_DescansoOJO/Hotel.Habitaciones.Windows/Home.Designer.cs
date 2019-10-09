@@ -1,4 +1,4 @@
-﻿namespace Hotel.Habitaciones.Windows
+﻿namespace Hotel_El_Descanso.Windows
 {
     partial class Home
     {
@@ -35,6 +35,7 @@
             this.btnCategoria = new System.Windows.Forms.Button();
             this.btnClientes = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -49,6 +50,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.button1);
             this.panel2.Controls.Add(this.btnUsuario);
             this.panel2.Controls.Add(this.btnHabitaciones);
             this.panel2.Controls.Add(this.btnCategoria);
@@ -100,7 +102,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(341, 353);
+            this.btnSalir.Location = new System.Drawing.Point(362, 394);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(216, 23);
             this.btnSalir.TabIndex = 5;
@@ -108,16 +110,27 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.BtnSalir_Click_1);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(16, 182);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(216, 23);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "MiniBar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // Home
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(560, 384);
+            this.ClientSize = new System.Drawing.Size(590, 439);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label1);
             this.Name = "Home";
             this.Text = "Home";
+            this.Load += new System.EventHandler(this.Home_Load);
             this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -133,5 +146,6 @@
         private System.Windows.Forms.Button btnCategoria;
         private System.Windows.Forms.Button btnClientes;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button button1;
     }
 }

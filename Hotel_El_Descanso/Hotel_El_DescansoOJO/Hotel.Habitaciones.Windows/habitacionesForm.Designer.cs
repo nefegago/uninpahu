@@ -1,4 +1,4 @@
-﻿namespace Hotel.Habitaciones.Windows
+﻿namespace Hotel_El_Descanso.Windows
 {
     partial class habitacionesForm
     {

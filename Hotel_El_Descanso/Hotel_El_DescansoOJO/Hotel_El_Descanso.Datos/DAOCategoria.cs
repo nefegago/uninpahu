@@ -51,7 +51,9 @@ namespace Hotel_El_Descanso.Datos
                 }
             }
             return lista;
-        }        public Categoria TraerPorId(int Id)
+        }
+
+        public Categoria TraerPorId(int Id)
         {
             Categoria Categoria = new Categoria();
             using (SqlConnection con = new SqlConnection(CadenaConexion))
@@ -70,7 +72,9 @@ namespace Hotel_El_Descanso.Datos
                 }
             }
             return Categoria;
-        }        public int Insertar(Categoria Categoria)
+        }
+
+        public int Insertar(Categoria Categoria)
         {
             int n = -1;
             using (SqlConnection con = new SqlConnection(CadenaConexion))
@@ -84,7 +88,8 @@ namespace Hotel_El_Descanso.Datos
                 n = cmd.ExecuteNonQuery();
             }
             return n;
-        }
+        }
+
         public int Actualizar(Categoria Categoria)
         {
             int n = -1;

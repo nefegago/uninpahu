@@ -7,11 +7,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Hotel.Entidades.Habitaciones;
-using Hotel.Negocio.Habitaciones;
+using Hotel_El_Descanso.Entidades;
+using Hotel_El_Descanso.Negocio;
 
 
-namespace Hotel.Habitaciones.Windows
+namespace Hotel_El_Descanso.Windows
 {
     public partial class habitacionesForm : Form
     {

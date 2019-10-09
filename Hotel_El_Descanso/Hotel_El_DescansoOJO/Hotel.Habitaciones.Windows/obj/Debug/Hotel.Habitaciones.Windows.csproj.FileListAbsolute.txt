@@ -88,3 +88,10 @@ C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Minibar.Windows.Minibar.resources
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.MiniBarForms.resources
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel.Habitaciones.Windows.MinibarFormsWindows.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel_El_Descanso.Windows.Home.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel_El_Descanso.Windows.MinibarFormsWindows.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel_El_Descanso.Windows.categoriaForm.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel_El_Descanso.Windows.clienteForms.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel_El_Descanso.Windows.habitacionesForm.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel_El_Descanso.Windows.login.resources
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel.Habitaciones.Windows\obj\Debug\Hotel_El_Descanso.Windows.usuarioForms.resources

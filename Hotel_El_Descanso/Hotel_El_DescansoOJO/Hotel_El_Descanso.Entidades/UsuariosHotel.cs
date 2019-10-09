@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
        
-namespace Hotel.Usuario.Entidades
+namespace Hotel_El_Descanso.Entidades
 {
      public class UsuariosHotel
     {

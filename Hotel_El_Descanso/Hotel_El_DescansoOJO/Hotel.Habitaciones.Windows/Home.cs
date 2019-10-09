@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Hotel.Habitaciones.Windows
+namespace Hotel_El_Descanso.Windows
 {
     public partial class Home : Form
     {
@@ -53,6 +53,18 @@ namespace Hotel.Habitaciones.Windows
 
         private void BtnSalir_Click_1(object sender, EventArgs e)
         {
+            this.Hide();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            Form pasar = new MinibarFormsWindows();
+            pasar.Show();
             this.Hide();
         }
     }

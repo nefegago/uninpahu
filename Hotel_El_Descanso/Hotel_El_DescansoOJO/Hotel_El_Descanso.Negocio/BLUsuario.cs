@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-//using Hotel_El_Descanso.Entidades;
-//using Hotel_El_Descanso.Datos;
-using Hotel.Usuario.Entidades;
-using Hotel.Usuario.Datos;
+using Hotel_El_Descanso.Entidades;
+using Hotel_El_Descanso.Datos;
 
-namespace Hotel.Usuario.Negocio
+namespace Hotel_El_Descanso.Negocio
 {  
     public class BLUsuario
     {

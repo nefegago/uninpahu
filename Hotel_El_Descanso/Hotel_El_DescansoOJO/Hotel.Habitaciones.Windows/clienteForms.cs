@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Hotel_El_Descanso.Negocio;
 using Hotel_El_Descanso.Entidades;
 
-namespace Hotel.Habitaciones.Windows
+namespace Hotel_El_Descanso.Windows
 {
     public partial class clienteForms : Form
     {

@@ -35,6 +35,7 @@ namespace Hotel_El_Descanso.Negocio
         {
             DAOCategoria daCategoria = new DAOCategoria();
             return daCategoria.Eliminar(Id);
-        }
+        }
+
     }
 }

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Hotel.Entidades.Habitaciones;
-using Hotel.Habitaciones.Datos;
+using Hotel_El_Descanso.Entidades;
+using Hotel_El_Descanso.Datos;
 
 
-namespace Hotel.Negocio.Habitaciones
+namespace Hotel_El_Descanso.Negocio
 {
     public class BlHabitacion
     {

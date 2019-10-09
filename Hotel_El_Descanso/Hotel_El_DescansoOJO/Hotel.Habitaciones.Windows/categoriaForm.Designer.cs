@@ -1,4 +1,4 @@
-﻿namespace Hotel.Habitaciones.Windows
+﻿namespace Hotel_El_Descanso.Windows
 {
     partial class categoriaForm
     {
@@ -236,6 +236,7 @@
             this.Controls.Add(this.gbDatos);
             this.Name = "categoriaForm";
             this.Text = "categoriaForm";
+            this.Load += new System.EventHandler(this.CategoriaForm_Load);
             this.panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).EndInit();
             this.gbDatos.ResumeLayout(false);

@@ -7,21 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Hotel.MiniBar.Entidades;
-using Hotel.MiniBar.Negocio;
+using Hotel_El_Descanso.Entidades;
+using Hotel_El_Descanso.Negocio;
 
 
       
-namespace Hotel.Habitaciones.Windows
+namespace Hotel_El_Descanso.Windows
 {
     public partial class MinibarFormsWindows : Form
     {
-
-
-        List<MiniBarE> lista = null;
+        MiniBar claseMinibar;
+        List<MiniBar> lista = null;
         BLMiniBar blMiniBar = new BLMiniBar();
-        MiniBarE c;
         bool _nuevo = false;
+        
 
 
         public MinibarFormsWindows()
@@ -94,17 +93,6 @@ namespace Hotel.Habitaciones.Windows
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
         private void MinibarFormsWindows_Load(object sender, EventArgs e)
         {
 
@@ -125,21 +113,23 @@ namespace Hotel.Habitaciones.Windows
             int n = -1;
             if (_nuevo)
             {
-                c = new MiniBarE(0,
+                //int Id, string Codigo, string Nombre, int Cantidad, float Precio
+                claseMinibar = new MiniBar(0,
                 txtCodigo.Text,
                 txtNombre.Text,
-                textCantidad.Text,
-                textPrecio.Text
-);
-                n = blMiniBar.Insertar(c);
+                int.Parse(textCantidad.Text),
+                float.Parse(textPrecio.Text));
+
+
+                n = blMiniBar.Insertar(claseMinibar);
             }
             else
             {
-                c.Codigo = txtCodigo.Text;
-                c.Nombre = txtNombre.Text;
-                c.Cantidad = textCantidad.Text;
-                c.Precio = textPrecio.Text;
-                n = blMiniBar.Actualizar(c);
+                claseMinibar.Codigo = txtCodigo.Text;
+                claseMinibar.Nombre = txtNombre.Text;
+                claseMinibar.Cantidad = int.Parse(textCantidad.Text);
+                claseMinibar.Precio = float.Parse(textPrecio.Text);
+                n = blMiniBar.Actualizar(claseMinibar);
             }
             if (n > 0)
             {
@@ -175,12 +165,12 @@ namespace Hotel.Habitaciones.Windows
             {
                 if (dgvDatos.RowCount > 0)
                 {
-                    c = blMiniBar.TraerPorId((int)dgvDatos[0, dgvDatos.
+                    claseMinibar = blMiniBar.TraerPorId((int)dgvDatos[0, dgvDatos.
                     CurrentRow.Index].Value);
-                    txtCodigo.Text = c.Codigo;
-                    txtNombre.Text = c.Nombre;
-                    textCantidad.Text = c.Cantidad;
-                    textPrecio.Text = Convert.ToDecimal (c.Precio);
+                    txtCodigo.Text = claseMinibar.Codigo;
+                    txtNombre.Text = claseMinibar.Nombre;
+                    textCantidad.Text = claseMinibar.Cantidad.ToString();
+                    textPrecio.Text = claseMinibar.Precio.ToString();
 
                     ActivarControlDatos(gbDatos, true);
                     ActivarButton(false);
@@ -195,13 +185,13 @@ namespace Hotel.Habitaciones.Windows
         {
             if (dgvDatos.RowCount > 0)
             {
-                c = blMiniBar.TraerPorId((int)dgvDatos[0, dgvDatos.CurrentRow.Index].Value);
+                claseMinibar = blMiniBar.TraerPorId((int)dgvDatos[0, dgvDatos.CurrentRow.Index].Value);
                 DialogResult rpta =
                 MessageBox.Show("Desea eliminar el registro", "Eliminar",
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question);
                 if (rpta == System.Windows.Forms.DialogResult.Yes)
                 {
-                    int n = blMiniBar.Eliminar(c.Id);
+                    int n = blMiniBar.Eliminar(claseMinibar.Id);
                     if (n > 0)
                     {
                         MessageBox.Show("Registro eliminado", "Aviso",
@@ -226,9 +216,19 @@ namespace Hotel.Habitaciones.Windows
 
         private void BtnRegresar_Click(object sender, EventArgs e)
         {
-            Form pasar = new Home();
+            Home pasar = new Home();
             pasar.Show();
             this.Hide();
+        }
+
+        private void TextCantidad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TextCantidad_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
         }
     }
 }

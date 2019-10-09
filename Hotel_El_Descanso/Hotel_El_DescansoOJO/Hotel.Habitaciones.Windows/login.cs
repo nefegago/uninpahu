@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Hotel.Habitaciones.Windows
+namespace Hotel_El_Descanso.Windows
 {
     public partial class login : Form
     {
@@ -19,9 +19,7 @@ namespace Hotel.Habitaciones.Windows
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            //Form pasar = new Clientes();
-             Form pasar = new Home();
-          //  Form pasar = new usuarioForms();
+            Form pasar = new Home();
             pasar.Show();
 
             this.Hide();
@@ -33,6 +31,11 @@ namespace Hotel.Habitaciones.Windows
         }
 
         private void Label1_Click(object sender, EventArgs e)
+        {
+
+        }
+           
+        private void GbDatos_Paint(object sender, PaintEventArgs e)
         {
 
         }

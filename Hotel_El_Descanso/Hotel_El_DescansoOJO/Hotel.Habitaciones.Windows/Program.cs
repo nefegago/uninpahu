@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Hotel.Habitaciones.Windows
+namespace Hotel_El_Descanso.Windows
 {
     static class Program
     {
@@ -19,8 +19,9 @@ namespace Hotel.Habitaciones.Windows
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-              Application.Run(new login());
-           
+            // Application.Run(new MinibarFormsWindows());
+            Application.Run(new login());
+
         }
     }
 }

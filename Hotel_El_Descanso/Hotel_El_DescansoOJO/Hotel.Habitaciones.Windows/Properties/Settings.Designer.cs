@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Hotel.Habitaciones.Windows.Properties
+namespace Hotel_El_Descanso.Windows.Properties
 {
 
 

@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel_El_Descanso.Datos", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel_El_Descanso.Negocio", "Hotel_El_Descanso.Negocio\Hotel_El_Descanso.Negocio.csproj", "{A03274E8-5A87-41E5-9419-86821762E2DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Habitaciones.Windows", "Hotel.Habitaciones.Windows\Hotel.Habitaciones.Windows.csproj", "{D1B2C218-EFB2-4A9F-9CDD-AEB7EDC7F930}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel_El_Descanso.Windows", "Hotel.Habitaciones.Windows\Hotel_El_Descanso.Windows.csproj", "{D1B2C218-EFB2-4A9F-9CDD-AEB7EDC7F930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

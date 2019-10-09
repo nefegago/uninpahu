@@ -1,4 +1,4 @@
-﻿namespace Hotel.Habitaciones.Windows
+﻿namespace Hotel_El_Descanso.Windows
 {
     partial class login
     {
@@ -32,8 +32,8 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.gbDatos = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.gbDatos.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,15 +72,7 @@
             this.gbDatos.Name = "gbDatos";
             this.gbDatos.Size = new System.Drawing.Size(401, 273);
             this.gbDatos.TabIndex = 7;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(65, 112);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
-            this.label2.TabIndex = 7;
-            this.label2.Text = "Password";
+            this.gbDatos.Paint += new System.Windows.Forms.PaintEventHandler(this.GbDatos_Paint);
             // 
             // label1
             // 
@@ -91,6 +83,15 @@
             this.label1.TabIndex = 8;
             this.label1.Text = "Usuario";
             this.label1.Click += new System.EventHandler(this.Label1_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(65, 112);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.TabIndex = 7;
+            this.label2.Text = "Password";
             // 
             // login
             // 

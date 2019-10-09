@@ -3,21 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Hotel.MiniBar.Datos;
-using Hotel.MiniBar.Entidades;
+using Hotel_El_Descanso.Datos;
+using Hotel_El_Descanso.Entidades;
 
 
-
-namespace Hotel.MiniBar.Negocio
+namespace Hotel_El_Descanso.Negocio
 {
    public class BLMiniBar
     {
-                public List<MiniBarE> Listar()
+       public List<MiniBar> Listar()
         {
             DaoMiniBar daMiniBar = new DaoMiniBar();
             return daMiniBar.Listar();
         }
-        public MiniBarE TraerPorId(int Id)
+        public MiniBar TraerPorId(int Id)
         {
             DaoMiniBar daMiniBar = new DaoMiniBar();
             return daMiniBar.TraerPorId(Id);

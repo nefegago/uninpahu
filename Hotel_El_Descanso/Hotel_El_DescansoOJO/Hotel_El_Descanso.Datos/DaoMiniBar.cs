@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
-using Hotel.MiniBar.Entidades;
+using Hotel_El_Descanso.Entidades;
 
-namespace Hotel.MiniBar.Datos
+namespace Hotel_El_Descanso.Datos
 {
     public class DaoMiniBar
     {
@@ -32,9 +32,9 @@ namespace Hotel.MiniBar.Datos
             }  
         }
 
-        public List<MiniBarE> Listar()
+        public List<MiniBar> Listar()
         {
-            List<MiniBarE> lista = new List<MiniBarE>();
+            List<MiniBar> lista = new List<MiniBar>();
             using (SqlConnection con = new SqlConnection(CadenaConexion))
             {
                 con.Open();
@@ -45,13 +45,11 @@ namespace Hotel.MiniBar.Datos
                 {
                     while (dr.Read())
                     {
-                        MiniBarE c = new MiniBarE((int)dr["Id"],
+                        MiniBar c = new MiniBar((int)dr["Id"],
                         (string)dr["Codigo"],
                         (string)dr["Nombre"],
-                        (int)dr["Cantidad"],
-                        (float)dr["Precio"]
-
-
+                        (int)dr["Cantidad"]
+                       // (float)dr["Precio"]
                         );
                         
                         lista.Add(c);
@@ -59,9 +57,9 @@ namespace Hotel.MiniBar.Datos
                 }
             }
             return lista;
-        }        public MiniBarE TraerPorId(int Id)
+        }        public MiniBar TraerPorId(int Id)
         {
-            MiniBarE MiniBarE = new MiniBarE();
+            MiniBar MiniBarE = new MiniBar();
             using (SqlConnection con = new SqlConnection(CadenaConexion))
             {
                 con.Open();
@@ -70,19 +68,19 @@ namespace Hotel.MiniBar.Datos
                 cmd.Parameters.AddWithValue("@ID", Id);
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr != null && dr.HasRows)
-                {
+                { 
                     dr.Read();
-                    MiniBarE = new MiniBarE((int)dr["Id"],
+                    MiniBarE = new MiniBar((int)dr["Id"],
                         (string)dr["Codigo"],
                         (string)dr["Nombre"],
-                        (int)dr["Cantidad"],
-                        (float)dr["Precio"]
+                        (int)dr["Cantidad"]
+                      //  (float)dr["Precio"]
 
                      );
                 }
             }
             return MiniBarE;
-        }        public int Insertar(MiniBarE MiniBarE)
+        }        public int Insertar(MiniBar MiniBarE)
         {
             int n = -1;
             using (SqlConnection con = new SqlConnection(CadenaConexion))
@@ -98,7 +96,7 @@ namespace Hotel.MiniBar.Datos
             }
             return n;
         }
-        public int Actualizar(MiniBarE MiniBarE)
+        public int Actualizar(MiniBar MiniBarE)
         {
             int n = -1;
             using (SqlConnection con = new SqlConnection(CadenaConexion))

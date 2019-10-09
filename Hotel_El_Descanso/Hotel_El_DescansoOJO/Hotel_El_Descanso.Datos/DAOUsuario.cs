@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
-using Hotel.Usuario.Entidades; 
+using Hotel_El_Descanso.Entidades;
 
-namespace Hotel.Usuario.Datos
+namespace Hotel_El_Descanso.Datos
 {
     public class DAOUsuario
     {

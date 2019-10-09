@@ -7,9 +7,9 @@ using System.Configuration;
 using System.Data.SqlClient;
 using System.Data;
 
-using Hotel.Entidades.Habitaciones;
+using Hotel_El_Descanso.Entidades;
 
-namespace Hotel.Habitaciones.Datos
+namespace Hotel_El_Descanso.Datos
 {
     public class DAOHabitaciones
     {

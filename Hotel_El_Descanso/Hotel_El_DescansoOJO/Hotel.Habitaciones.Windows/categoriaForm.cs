@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Hotel_El_Descanso.Entidades;
 using Hotel_El_Descanso.Negocio;
 
-namespace Hotel.Habitaciones.Windows
+namespace Hotel_El_Descanso.Windows
 {
     public partial class categoriaForm : Form
     {
@@ -206,6 +206,11 @@ namespace Hotel.Habitaciones.Windows
         }
 
         private void GbDatos_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void CategoriaForm_Load(object sender, EventArgs e)
         {
 
         }

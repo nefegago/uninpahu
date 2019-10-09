@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hotel.Entidades.Habitaciones
+namespace Hotel_El_Descanso.Entidades
 {
     public class Habitacion
     {
@@ -52,8 +52,7 @@ namespace Hotel.Entidades.Habitaciones
             this._estado = Estado;
             this._categoria_IdCategoria = Categoria_IdCategoria;
         }
-        public Habitacion(int Id, string Codigo, decimal Precio, string Estado) : this(Id,
-        Codigo, Precio, "", 0)
+        public Habitacion(int Id, string Codigo, decimal Precio, string Estado) : this(Id,Codigo, Precio, Estado, 0)
         {
         }
         public Habitacion(int Id, string Codigo, decimal Precio) : this(Id, Codigo, Precio, "")
