@@ -57,7 +57,7 @@ namespace Hotel_El_Descanso.Datos
         }
         public Habitacion TraerPorId(int Id)
         {
-            Habitacion Habitacion = new Habitacion();
+            Habitacion Habitacion = null ;
             using (SqlConnection con = new SqlConnection(CadenaConexion))
             {
                 con.Open();
@@ -69,14 +69,24 @@ namespace Hotel_El_Descanso.Datos
                 {
                     dr.Read();
 
-                    Habitacion = new Habitacion((int)dr["Id"],
-
-                    (string)dr["Codigo"], (decimal)dr["Precio"],
-                    (string)dr["Estado"]
-                    );
+                    //Habitacion = new Habitacion((int)dr["Id"],
+                    //(string)dr["Codigo"], (decimal)dr["Precio"],
+                    //(string)dr["Estado"]
+                    //);
+                    Habitacion = new Habitacion()
+                    {
+                        Codigo = (string)dr["Codigo"],
+                        Precio = (decimal)dr["Precio"],
+                        Estado = (string)dr["Estado"],
+                        Id = (int)dr["IdHabitaciones"]
+                    };
+                    return Habitacion;
                 }
-            }
-            return Habitacion;
+                else
+                {
+                    return null;
+                }
+            }            
         }
         public int Insertar(Habitacion Habitaciones)
         {

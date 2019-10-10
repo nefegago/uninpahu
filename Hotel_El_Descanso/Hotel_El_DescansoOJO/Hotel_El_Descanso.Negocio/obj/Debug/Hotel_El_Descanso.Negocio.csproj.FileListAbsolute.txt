@@ -42,6 +42,7 @@ C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_E
 C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CopyComplete
 C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.dll
 C:\Users\nefegago\Desktop\2Hotel_El_DescansoOJO (2)\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.pdb
+C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CoreCompileInputs.cache
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.dll
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Negocio.pdb
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.dll
@@ -49,7 +50,6 @@ C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Datos.pdb
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\bin\Debug\Hotel_El_Descanso.Entidades.pdb
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csprojAssemblyReference.cache
-C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CoreCompileInputs.cache
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.csproj.CopyComplete
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.dll
 C:\Users\nefegago\Desktop\uninpahu\Hotel_El_Descanso\Hotel_El_DescansoOJO\Hotel_El_Descanso.Negocio\obj\Debug\Hotel_El_Descanso.Negocio.pdb

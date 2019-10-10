@@ -54,6 +54,7 @@ namespace Hotel_El_Descanso.Entidades
         }
         public Habitacion(int Id, string Codigo, decimal Precio, string Estado) : this(Id,Codigo, Precio, Estado, 0)
         {
+
         }
         public Habitacion(int Id, string Codigo, decimal Precio) : this(Id, Codigo, Precio, "")
         {
